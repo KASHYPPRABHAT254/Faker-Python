@@ -1,0 +1,12 @@
+from faker import Faker
+fake = Faker("en_IN")
+print("address : ",fake.address())
+print("address : ",fake.building_number())
+print("city : ",fake.city())
+print("Street Address: ",fake.street_address())
+print("country name : ",fake.country())
+print("country code : ",fake.country_code())
+print("current country code : ",fake.current_country_code())
+#print("Zipcode : ",fake.zipcode())
+print("State : ",fake.administrative_unit())
+print("Latitude & Longitude : ",fake.latitude(),fake.longitude())
